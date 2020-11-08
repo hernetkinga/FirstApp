@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Find Beer</string>
-    <string name="find_beer">Find Beer</string>
-    <string name="brands">No beers selected</string>
-    <string-array name="beer_colors">
-        <item>light</item>
-        <item>amber</item>
-        <item>brown</item>
+    <string name="app_name">IntellectusApp</string>
+    <string name="find_beer">IntellectusApp</string>
+    <string name="brands">No category selected</string>
+    <string-array name="user">
+        <item>student</item>
+        <item>teacher</item>
+        <item>admin</item>
         <item>dark</item>
     </string-array>
 </resources>

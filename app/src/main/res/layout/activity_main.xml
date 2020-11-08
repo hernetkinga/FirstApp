@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:background="#FF9800"
     android:orientation="vertical"
-    tools:context="com.hfad.beeradviser.FindBeerActivity">
+    android:padding="16dp"
+    tools:context="com.hfad.IntellectusApp.FindBeerActivity">
 
     <Spinner
         android:id="@+id/color"
@@ -15,16 +16,18 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:layout_marginTop="40dp"
-        android:entries="@array/beer_colors" />
+        android:background="#FFFFFF"
+        android:entries="@array/user" />
 
     <Button
-        android:id="@+id/find_beer"
+        android:id="@+id/IntellectusApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
+        android:onClick="onClickFindBeer"
         android:text="@string/find_beer"
-        android:onClick="onClickFindBeer" />
+        app:backgroundTint="#000000" />
 
     <TextView
         android:id="@+id/brands"
